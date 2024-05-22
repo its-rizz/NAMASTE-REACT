@@ -1,0 +1,52 @@
+.header {
+  border: 1px solid #000;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.nav-items > ul {
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  color: gray;
+  cursor: pointer;
+  margin: 12px;
+  font-size: 24px;
+}
+
+.logo {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
+
+.res-card {
+  background-color: #ece3e3;
+  border-radius: 5%;
+  width: 200px;
+  margin: 5px;
+  padding: 6px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.res-logo {
+  border-radius: 5%;
+  width: 190px;
+  height: 100px;
+}
+/*# sourceMappingURL=index.1303bb05.css.map */
