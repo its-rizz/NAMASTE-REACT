@@ -23,6 +23,9 @@ const Body = () => {
     setListOfRestaurants(
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
+    setFilteredRestaurant(
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    );
 
     return json;
   };
@@ -52,12 +55,11 @@ const Body = () => {
           <button className="filter-btn" onClick={resetFilter}>
             Reset{" "}
           </button>{" "}
-        </div>
+        </div>{" "}
         <div className="right">
           <input
             type="text"
             className="search-box"
-            name="What's in your mind?"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
@@ -76,13 +78,13 @@ const Body = () => {
               setFilteredRestaurant(filteredRestaurant);
             }}
           >
-            Search
-          </button>
-        </div>
+            Search{" "}
+          </button>{" "}
+        </div>{" "}
       </div>{" "}
       <div className="res-container">
         {" "}
-        {listOfRestaurants.map((restaurant, index) => (
+        {filteredRestaurant.map((restaurant, index) => (
           <RestaurantCard key={index} resData={restaurant} />
         ))}{" "}
       </div>{" "}
