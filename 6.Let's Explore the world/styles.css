@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.nav-items > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  margin: 12px;
+  font-size: 24px;
+  color: grey;
+  cursor: pointer;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.res-card {
+  width: 200px;
+  padding: 6px;
+  background-color: rgb(236, 227, 227);
+  margin: 5px;
+  border-radius: 5%;
+}
+
+.res-card:hover {
+  width: 200px;
+  padding: 6px;
+  background-color: rgb(245, 150, 150);
+  margin: 5px;
+  border-radius: 5%;
+  color: white;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.res-logo {
+  width: 190px;
+  height: 100px;
+  border-radius: 5%;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background-color: lightcoral;
+  border-radius: 5%;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  height: 300px;
+  width: 200px;
+  padding: 6px;
+  background-color: rgb(236, 227, 227);
+  margin: 5px;
+  border-radius: 5%;
+  margin-top: 30px;
+}
+
+.login-button {
+  background-color: grey;
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 8%;
+}
+
+.search-box {
+  height: 25px;
+  width: 200px;
+  font-size: 18px;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
