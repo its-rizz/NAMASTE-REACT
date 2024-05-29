@@ -1,0 +1,136 @@
+.header {
+  border: 1px solid #000;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.nav-items > ul {
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  color: gray;
+  cursor: pointer;
+  margin: 12px;
+  font-size: 24px;
+}
+
+.logo {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
+
+.res-card {
+  background-color: #ece3e3;
+  border-radius: 5%;
+  width: 200px;
+  margin: 5px;
+  padding: 6px;
+}
+
+.res-card:hover {
+  color: #fff;
+  background-color: #f59696;
+  border-radius: 5%;
+  width: 200px;
+  margin: 5px;
+  padding: 6px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.res-logo {
+  border-radius: 5%;
+  width: 190px;
+  height: 100px;
+}
+
+.filter-btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: #f08080;
+  border-radius: 5%;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: #ece3e3;
+  border-radius: 5%;
+  width: 200px;
+  height: 300px;
+  margin: 30px 5px 5px;
+  padding: 6px;
+}
+
+.login-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 8%;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.search-box {
+  width: 200px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.filter {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.links {
+  color: gray;
+  text-decoration: none;
+}
+
+.res-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.user-card {
+  background-color: #ece3e3;
+  border-radius: 5%;
+  width: auto;
+  height: auto;
+  margin: 5px;
+  padding: 6px;
+  display: inline-block;
+}
+
+.user-card:hover {
+  color: #fff;
+  background-color: #f59696;
+  border-radius: 5%;
+  width: auto;
+  height: auto;
+  margin: 5px;
+  padding: 6px;
+  display: inline-block;
+}
+/*# sourceMappingURL=index.1303bb05.css.map */
